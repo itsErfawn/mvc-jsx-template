@@ -1,6 +1,6 @@
 const React = require('react');
 
-const Header = () => {
+const Header = ({test}) => {
   return (
     <header className="bg-blue-500 text-white p-4">
       <nav className="container mx-auto">

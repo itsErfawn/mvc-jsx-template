@@ -1,28 +1,28 @@
 # 🚀 Express.js + JSX Starter Project
 
-این پروژه یک نمونه‌ی ساده و کاربردی از Express.js است که به جای استفاده از **EJS**، از **JSX** برای رندرینگ سمت سرور استفاده می‌کند.
+This project is a simple and practical example of Express.js that uses **JSX** for server-side rendering instead of **EJS**.
 
 ---
 
-## ✨ ویژگی‌ها
+## ✨ Features
 
-- 🛠️ **کامپوننت‌سازی**: مانند React، می‌توانید کامپوننت‌ها بسازید و در `view` استفاده کنید.
-- 🏗️ **معماری MVC**: پروژه شامل مثال‌های ساده برای هر قسمت از معماری MVC است.
-- 🔄 **بازنگری سریع**: از ابزار **Nodemon** برای به‌روزرسانی خودکار استفاده شده است.
-- ⚡ **Express-React-Views**: مشکلات قبلی مثل استفاده همزمان از چند کامپوننت برطرف شده است.
-
----
-
-## 📋 نکات کلیدی
-
-- ⚙️ امکان استفاده از **کامپوننت‌های React** وجود دارد، اما نمی‌توانید از **React Hooks** استفاده کنید؛ زیرا رندرینگ در سمت سرور انجام می‌شود.
-- 🔗 می‌توانید **داده‌ها** را به عنوان props به کامپوننت‌ها پاس دهید و کنترل کاملی بر نمایش آن داشته باشید.
+- 🛠️ **Component-Based**: Like React, you can build components and use them in your views.  
+- 🏗️ **MVC Architecture**: The project includes simple examples for each part of the MVC pattern.  
+- 🔄 **Hot Reloading**: Uses **Nodemon** for automatic updates on file changes.  
+- ⚡ **Express-React-Views**: Fixes previous issues such as using multiple components simultaneously.
 
 ---
 
-## 🏃‍♂️ شروع سریع
+## 📋 Key Notes
 
-برای شروع، کافیست دستور زیر را اجرا کنید:
+- ⚙️ You can use **React components**, but **React Hooks** are not supported because rendering happens on the server.  
+- 🔗 You can pass **data as props** to components and fully control how they render.
+
+---
+
+## 🏃‍♂️ Quick Start
+
+To get started, simply run:
 
 ```bash
 npm run dev
